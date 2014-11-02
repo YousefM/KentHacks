@@ -1,0 +1,183 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".addJob"
+        android:focusableInTouchMode="true"
+        android:id="@+id/layout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="New Job"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler0"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:maxLength="20"
+            android:id="@+id/title" />
+
+        <EditText
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleinput"
+            android:hint="Enter a title"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler1"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline"
+            android:id="@+id/deadline" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setDate"
+            android:id="@+id/dateButton"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setTime"
+            android:id="@+id/timeButton"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:id="@+id/payment" />
+
+        <EditText
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/paymentinput"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter amount here" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allowance"
+            android:id="@+id/allowance" />
+
+        <EditText
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/allowanceinput"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter amount here"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Zip Code"
+            android:id="@+id/zipcode" />
+
+        <EditText
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:ems="10"
+            android:maxLength="5"
+            android:id="@+id/zipcodeinput"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter zip code"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler5"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/description" />
+
+        <EditText
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptioninput"
+            android:layout_gravity="center_horizontal"
+            android:hint="Please enter description of your job request (e.g. 1 box of Aunt Jemima pancake mix from Walmart)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/filler6"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Job"
+            android:id="@+id/submitjob"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitForm"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,35 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="max_job_dist">Maximum Job Distance</string>
+    <string name="max_job_dist_default">15</string>
+
+    <string name="min_runner_rating">Minimun runner rating (out of 5)</string>
+    <string name="min_runner_rating_default">1</string>
+
+    <string name="min_payment">Minimun payment</string>
+    <string name="min_payment_default">0</string>
+
+    <string name="min_job_remaining_time">Minimum remaining time for jobs (hours)</string>
+    <string name="min_job_remaining_time_default">2</string>
+
+    <string-array name="sort_modes">
+        <item>Proximity</item>
+        <item>Runner Rating</item>
+        <item>Payment</item>
+        <item>Time Remaining</item>
+    </string-array>
+    <string-array name="sort_modes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+</resources>

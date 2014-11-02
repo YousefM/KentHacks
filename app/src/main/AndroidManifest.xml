@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schwergsy.kentstate" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".JobBoard"
+            android:label="@string/title_activity_job_board" >
+        </activity>
+        <activity
+            android:name=".addJob"
+            android:label="@string/title_activity_add_job" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.schwergsy.kentstate.Login" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JobDetail"
+            android:label="@string/title_activity_job_detail" >
+        </activity>
+        <activity
+            android:name=".VenmoWebViewActivity"
+            android:label="@string/title_activity_venmo_web_view" >
+        </activity>
+        <activity
+            android:name=".VenmoLibrary"
+            android:label="@string/title_activity_venmo_library" >
+        </activity>
+        <activity
+            android:name=".myRuns"
+            android:label="@string/title_activity_my_runs" >
+        </activity>
+        <activity
+            android:name=".JobDetailRuns"
+            android:label="@string/title_activity_job_detail_runs" >
+        </activity>
+        <activity
+            android:name=".MyJobs"
+            android:label="@string/title_activity_my_jobs" >
+        </activity>
+        <activity
+            android:name=".MyJobDetails"
+            android:label="@string/title_activity_my_job_details" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

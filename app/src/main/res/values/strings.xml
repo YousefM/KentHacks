@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KentState</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="errand">Errand</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="email_hint">Email</string>
+    <string name="done">Done</string>
+    <string name="invalid">Invalid username or password</string>
+    <string name="title_activity_jobs">Jobs</string>
+    <string name="title_activity_job_detail">Job Detail</string>
+    <string name="ok">Ok</string>
+    <string name="passwordReq">Password must be at least 5 characters.</string>
+    <string name="emailReq">Must sign up with a valid email address.</string>
+    <string name="title_activity_job_board">Job Board</string>
+    <string name="title_activity_add_job">Add Job</string>
+    <string name="title_activity_login">Login</string>
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="emptyList">No Jobs Available</string>
+    <string name="customerRating">Customer Rating</string>
+    <string name="runnerRating">Runner Rating</string>
+
+    <string-array name="menu_items">
+        <item>Add Job</item>
+        <item>My Jobs</item>
+        <item>My Runs</item>
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="button_menu_items">
+        <item>btnAddJob</item>
+        <item>btnProfile</item>
+        <item>btnSettings</item>
+        <item>btnLogout</item>
+    </string-array>
+
+    <string name="title_activity_venmo_web_view">VenmoWebViewActivity</string>
+    <string name="title_activity_venmo_library">VenmoLibrary</string>
+    <string name="title_activity_my_runs">myRuns</string>
+    <string name="title_activity_job_detail_runs">JobDetailRuns</string>
+    <string name="title_activity_my_jobs">MyJobs</string>
+    <string name="title_activity_my_job_details">MyJobDetails</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
